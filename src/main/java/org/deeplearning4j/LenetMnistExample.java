@@ -48,6 +48,8 @@ public class LenetMnistExample {
         int nEpochs = 1; // Number of training epochs
         int seed = 123; //
 
+
+        
         /*
             Create an iterator using the batch size for one iteration
          */

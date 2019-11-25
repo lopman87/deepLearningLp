@@ -64,7 +64,7 @@ import java.util.Random;
  */
 public class MnistClassifier {
     private static final Logger LOGGER = LoggerFactory.getLogger(MnistClassifier.class);
-    private static final String BASE_PATH = System.getProperty("java.io.tmpdir") + "/mnist";
+    private static final String BASE_PATH = "/Users/longpeng/Desktop"+ "/mnist";
     private static final String DATA_URL = "http://github.com/myleott/mnist_png/raw/master/mnist_png.tar.gz";
 
     public static void main(String[] args) throws Exception {

@@ -40,6 +40,7 @@ public enum DownloaderUtility {
     /*
         Skymind dl4j-examples resources stored under AZURE_BLOB_URL/dl4j-examples
      */
+    IRISDATA("IrisData.zip","datavec-examples","bb49e38bb91089634d7ef37ad8e430b8","1KB"),
     DATAEXAMPLES("DataExamples.zip","dl4j-examples","e4de9c6f19aaae21fed45bfe2a730cbb","2MB");
 
     private final String BASE_URL;
